@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import { userApi } from "../api/axios";
+import { userApi } from "../api/axios";
 import signUpUndraw from "../assets/imgs/signupUndraw.svg";
 import logo from "../assets/imgs/logo.png";
 import { otpApi } from "../api/axios";
+import toast, { Toaster } from "react-hot-toast";
 const SignUp = () => {
   const navigate = useNavigate();
   const [signUpType, setSignUpType] = useState("");
@@ -22,14 +23,20 @@ const SignUp = () => {
   const Validate = () => {
     setSignUpError({});
     let error = {}
-    if (signUp.firstName.trim() === '')
+    if (signUp.firstName.trim() === '') {
       error.firstName = true;
+    }
     if (signUp.lastName.trim() === '')
       error.lastName = true;
     if (signUp.email.trim() === '')
       error.email = true;
-    if (signUp.password.trim() === '' || signUp.password.length < 6 || signUp.password.length > 15)
+    if (signUp.password.trim() === '' || signUp.password.length < 6 || signUp.password.length > 15) {
       error.password = true;
+      // if (signUp.password.trim() === '')
+      // toast.error("Enter Your Password");
+      // else
+      // toast.error("Password must be at least 6 characters and less than 15 characters");
+    }
     if (signUp.confirmPassword.trim() === '' || signUp.confirmPassword.length < 6 || signUp.confirmPassword.length > 15 || signUp.password !== signUp.confirmPassword)
       error.confirmPassword = true;
 
@@ -40,7 +47,6 @@ const SignUp = () => {
   const SignUp = (e) => {
     e.preventDefault();
     const error = Validate();
-    console.log(error);
     if (!error.firstName && !error.lastName && !error.email && !error.password && !error.confirmPassword) {
       setLoading(true)
       otpApi.get('/send-otp', { params: { email: signUp.email, name: signUp.firstName } }).then((response) => {
@@ -51,20 +57,24 @@ const SignUp = () => {
         console.log(error);
       })
     }
-    // userApi
-    //   .post("/signup", signUp)
-    //   .then((response) => {
-    //     console.log(response);
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
+    userApi
+      .post("/signup", signUp)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
-  const Verify=()=>{
-      if(actualOtp==otp)
-        alert("Successfully verified")
-    else
-      alert("Invalid otp")
+  const Verify = (e) => {
+    e.preventDefault();
+    if (actualOtp.toString() === otp) {
+      toast.success("OTP verified successfully");
+      navigate('/login');
+    }
+    else{
+      toast.error("Invalid otp")
+    }
   }
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -72,6 +82,7 @@ const SignUp = () => {
   };
   return (
     <div className="bg-[#f6f6f6] min-h-screen flex justify-evenly items-center mx-auto max-lg:flex-col">
+      <Toaster />
       <div className="absolute top-0 max-md:left-0 max-lg:relative">
         <img
           className="h-48 w-48 max-md:h-36 max-md:w-36"
@@ -207,7 +218,7 @@ const SignUp = () => {
                 type="text"
                 name="opt"
                 id="otp"
-                onChange={(e)=>setOtp(e.target.value)}
+                onChange={(e) => setOtp(e.target.value)}
                 value={otp}
               />
             }
@@ -237,7 +248,7 @@ const SignUp = () => {
               <input
                 className="bg-blue m-4 text-white h-10 min-w-[100px]  px-5 py-2 cursor-pointer rounded-md hover:bg-hoverBlue"
                 type="submit"
-                value={showOtpInput ? "Verify": "SignUp"}
+                value={showOtpInput ? "Verify" : "SignUp"}
               />
             }
           </form>

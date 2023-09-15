@@ -3,6 +3,7 @@ import { userApi } from "../api/axios";
 import { useNavigate } from "react-router-dom";
 import loginUndraw from "../assets/imgs/loginUndraw.svg";
 import logo from "../assets/imgs/logo.png";
+import toast, { Toaster } from 'react-hot-toast';
 const Login = () => {
   const navigate = useNavigate();
   const [loginType, setLoginType] = useState("");
@@ -14,17 +15,29 @@ const Login = () => {
   const Validate = () => {
     setLoginError({});
     let error = {}
-    if (login.email.trim() === '')
+    if (login.email.trim() === '') {
       error.email = true;
-    if (login.password.trim() === '' || login.password.length < 6 || login.password.length > 15)
+      toast.error("Enter your Email");
+    }
+    if (login.password.trim() === '' || login.password.length < 6 || login.password.length > 15) {
       error.password = true;
+      if (login.password.trim() === '')
+        toast.error("Type Your Password");
+      else
+        toast.error("Password must be at least 6 characters and less than 15 characters");
+    }
 
     setLoginError(error);
+    return error;
   }
 
   const Login = (e) => {
     e.preventDefault();
-    Validate();
+    const error = Validate();
+    if (!error.email && !error.password){
+      console.log("Login Success");
+      navigate('/home')
+    }
     // userApi
     //   .get("/login", {
     //     params: {
@@ -50,6 +63,7 @@ const Login = () => {
   };
   return (
     <div className="bg-[#f6f6f6] min-h-screen flex justify-evenly items-center mx-auto max-md:flex-col">
+      <Toaster />
       <div className="absolute top-0 max-md:left-0 max-md:relative">
         <img
           className="h-48 w-48 max-md:h-36 max-md:w-36"
@@ -78,8 +92,8 @@ const Login = () => {
           <div className="flex justify-evenly items-center text-lg m-10 font-poppins">
             <label
               className={`${loginType === "organization"
-                  ? "bg-blue hover:bg-hoverBlue cursor-pointer px-5 py-2 rounded-lg  text-white text-center border-[2px] border-transparent min-w-[150px]"
-                  : "px-5 py-2 border-[2px] border-gray rounded-lg cursor-pointer text-center min-w-[150px]"
+                ? "bg-blue hover:bg-hoverBlue cursor-pointer px-5 py-2 rounded-lg  text-white text-center border-[2px] border-transparent min-w-[150px]"
+                : "px-5 py-2 border-[2px] border-gray rounded-lg cursor-pointer text-center min-w-[150px]"
                 } `}
               htmlFor="organization"
             >
@@ -94,8 +108,8 @@ const Login = () => {
             </label>
             <label
               className={`${loginType === "vendor"
-                  ? "bg-blue hover:bg-hoverBlue cursor-pointer px-5 py-2 rounded-lg  text-white text-center border-[2px] border-transparent min-w-[150px]"
-                  : "px-5 py-2 border-[2px] border-gray rounded-lg cursor-pointer text-center min-w-[150px]"
+                ? "bg-blue hover:bg-hoverBlue cursor-pointer px-5 py-2 rounded-lg  text-white text-center border-[2px] border-transparent min-w-[150px]"
+                : "px-5 py-2 border-[2px] border-gray rounded-lg cursor-pointer text-center min-w-[150px]"
                 } `}
               htmlFor="vendor"
             >

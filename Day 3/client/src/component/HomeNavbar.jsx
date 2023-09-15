@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-const Navbar = () => {
+const HomeNavbar = () => {
   const navigate = useNavigate();
   const [isScroll, setIsScrolled] = useState(false);
   const onScroll = () => {
@@ -24,11 +24,12 @@ const Navbar = () => {
         <span className='text-blue font-alata text-4xl mx-10 hover:bg-hoverBlue'>De<span className='text-white'>l</span>ta</span>
       </div>
       <div className="font-poppins flex justify-center font-semibold items-center ">
-        <button onClick={() => navigate("/login")} className='bg-blue uppercase min-w-[100px] mx-4 hover:bg-hoverBlue px-4 py-2 rounded-md text-white '>Login</button>
-        <button onClick={() => navigate("/signup")} className='bg-blue uppercase min-w-[100px] hover:bg-hoverBlue px-4 py-2 rounded-md text-white '>SignUp</button>
+            <div className="h-10 w-10 rounded-full bg-blue">
+
+            </div>
       </div>
     </div>
   )
 }
 
-export default Navbar
+export default HomeNavbar
