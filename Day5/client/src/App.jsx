@@ -10,13 +10,14 @@ import Vendor from "./auth/Admin/Vendor";
 import Contracts from "./auth/Admin/Contracts";
 import Complaints from "./auth/Admin/Complaints";
 import AdminLogin from './auth/Admin/Login'
-// import Navbar from "./component/Navbar";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* <Navbar/> */}
+        <Navbar/>
         <Routes>
+          <Route index element={<Home />} />
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin/organization" element={<Organization />} />
@@ -27,7 +28,6 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/forgetPwd" element={<ForgetPassword />} />
           <Route path="/signUp" element={<SignUp />} />
-          <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>

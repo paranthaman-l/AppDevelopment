@@ -28,7 +28,7 @@ const DashboardNavbar = ({ setShowSidebar, showSidebar }) => {
                 <div className='pr-2 border-r-[2px] border-indigo'>
                     <span className='relative'>
                         <IoNotificationsOutline className='text-2xl text-indigo ' />
-                        <span className='absolute h-2 w-2 rounded-full top-0 right-[2px] bg-[#ff6150] animate-pulse'></span>
+                        <span className='absolute h-2 w-2 rounded-full top-0 right-[2px] bg-[#ff6150] animate-ping'></span>
                     </span>
 
                 </div>
@@ -38,7 +38,7 @@ const DashboardNavbar = ({ setShowSidebar, showSidebar }) => {
                         <p className='cursor-pointer'>{admin ? admin.name : "Admin"}</p>
                         <div className="relative">
                             <p className='text-xs flex  items-center text-[#848789] font-semibold'>Admin <span className='ml-1'><FaCaretDown /></span></p>
-                            <div className="bg-white shadow-lg min-w-[100px]  right-0 transition duration-500 ease-in-out transform  absolute opacity-0 group-hover:opacity-100">
+                            <div className="bg-white shadow-lg min-w-[100px]  right-0 transition duration-500 ease-in-out transform  absolute hidden group-hover:block ">
                                 <ul className='flex py-2 flex-col text-sm justify-start items-center'>
                                     <li className='flex px-6 py-3 justify-between items-center border-b-[1px] border-gray w-full border-opacity-50 hover:text-blue cursor-pointer'>
                                         <BsPerson className='mr-2' />

@@ -1,19 +1,19 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react"
-import AdminService from "../../services/AdminService";
-
 const PendingVen = () => {
   const [pendingVendors, setPendingVendors] = useState([]);
-  useEffect(() => {
-    const getPendingVendors = async () => {
-      await AdminService.GetPendingVendors().then((res) => {
-        const response = res.data;
-        setPendingVendors(response.data);
-        console.log(response.data);
-      }).catch((err) => { console.log(err); })
-    }
-    getPendingVendors();
-  }, [])
 
+  const getPendingVendors =  () => {
+    // await AdminService.GetPendingVendors().then((res) => {
+    //   const response = res.data;
+    //   setPendingVendors(response.data);
+    //   console.log(response.data);
+    // }).catch((err) => { console.log(err); })
+  }
+  useEffect(() => {
+    getPendingVendors();
+  })
+  
   return (
     <div>
       {pendingVendors?.map((vendor) => {

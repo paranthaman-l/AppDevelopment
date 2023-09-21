@@ -12,12 +12,12 @@ export const VendorSlice = createSlice({
         setVendor: (state, action) => {
             state.vendor = action.payload
         },
-        logout: (state) => {
+        logout: (state, action) => {
             state.vendor = null
         }
     }
 });
 
 export const { setVendor, logout } = VendorSlice.actions;
-export const getVendor = (state) => state.vendorInfo.vendor;
+export const getVendor = (state)=>state.vendorInfo.vendor;
 export default VendorSlice.reducer;

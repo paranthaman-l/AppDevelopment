@@ -24,16 +24,16 @@ export const AdminSlice = createSlice({
             state.vendors.push(action.payload);
         },
         removeOrganization: (state, action) => {
-            state.organizations = state.organizations.filter((org) => org.id !== action.payload);
+            state.organizations = state.organizations.filter((org,i) => i !== action.payload);
         },
         removeVendor: (state, action) => {
-            state.vendors = state.vendors.filter((vendor) => vendor.id !== action.payload);
+            state.vendors = state.vendors.filter((vendor,i) => i !== action.payload);
         }
     }
 });
 
 export const { setAdmin, logout, addOrganization, addVendor, removeOrganization, removeVendor } = AdminSlice.actions;
 export const getAdmin = (state) => state.adminInfo.admin;
-// export const getVendors = (state) => state.adminInfo.vendors;
-// export const getOrganizations = (state) => state.adminInfo.organizations;
+export const getVendors = (state) => state.adminInfo.vendors;
+export const getOrganizations = (state) => state.adminInfo.organizations;
 export default AdminSlice.reducer;
