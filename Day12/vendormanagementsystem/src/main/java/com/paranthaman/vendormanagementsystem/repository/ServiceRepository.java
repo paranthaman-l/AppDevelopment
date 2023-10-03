@@ -1,8 +1,8 @@
-package paranthaman.vendormanagementsystem.repositories;
+package com.paranthaman.vendormanagementsystem.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import paranthaman.vendormanagementsystem.models.ServiceModel;
+import com.paranthaman.vendormanagementsystem.model.ServiceModel;
 
 public interface ServiceRepository extends CrudRepository<ServiceModel,String> {
     

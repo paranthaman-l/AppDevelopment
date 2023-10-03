@@ -1,4 +1,4 @@
-package paranthaman.vendormanagementsystem.models;
+package com.paranthaman.vendormanagementsystem.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

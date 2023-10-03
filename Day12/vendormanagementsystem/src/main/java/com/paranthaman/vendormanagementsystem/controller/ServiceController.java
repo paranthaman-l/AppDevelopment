@@ -1,4 +1,4 @@
-package paranthaman.vendormanagementsystem.controllers;
+package com.paranthaman.vendormanagementsystem.controller;
 
 import java.util.ArrayList;
 
@@ -14,11 +14,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import paranthaman.vendormanagementsystem.models.ServiceModel;
-import paranthaman.vendormanagementsystem.services.ServiceService;
+import com.paranthaman.vendormanagementsystem.constant.Api;
+import com.paranthaman.vendormanagementsystem.model.ServiceModel;
+import com.paranthaman.vendormanagementsystem.service.ServiceService;
 
 @RestController
-@RequestMapping("/service")
+@RequestMapping(Api.SERVICE)
 public class ServiceController {
     @Autowired
     private ServiceService serviceService;

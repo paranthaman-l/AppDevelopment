@@ -1,0 +1,4 @@
+2023-10-03T10:08:15.499+05:30  INFO 12544 --- [restartedMain] c.p.v.VendormanagementsystemApplication  : Starting VendormanagementsystemApplication using Java 17.0.6 with PID 12544 (E:\Dev Zone\GitHub\AppDevelopment\Day12\vendormanagementsystem\target\classes started by USER in E:\Dev Zone\GitHub\AppDevelopment\Day12\vendormanagementsystem)
+2023-10-03T10:08:15.522+05:30  INFO 12544 --- [restartedMain] c.p.v.VendormanagementsystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T10:08:15.657+05:30  INFO 12544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-03T10:08:15.657+05:30  INFO 12544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'

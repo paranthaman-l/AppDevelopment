@@ -1,4 +1,4 @@
-package paranthaman.vendormanagementsystem.controllers;
+package com.paranthaman.vendormanagementsystem.controller;
 
 import java.util.ArrayList;
 
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import paranthaman.vendormanagementsystem.models.ContractModel;
-import paranthaman.vendormanagementsystem.models.ServiceModel;
-import paranthaman.vendormanagementsystem.services.ContractService;
+import com.paranthaman.vendormanagementsystem.constant.Api;
+import com.paranthaman.vendormanagementsystem.model.ContractModel;
+import com.paranthaman.vendormanagementsystem.service.ContractService;
 
 @RestController
-@RequestMapping("/contract")
+@RequestMapping(Api.CONTRACT)
 public class ContractController {
     
     @Autowired

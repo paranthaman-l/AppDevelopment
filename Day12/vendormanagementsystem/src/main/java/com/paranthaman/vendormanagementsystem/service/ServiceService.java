@@ -1,4 +1,4 @@
-package paranthaman.vendormanagementsystem.services;
+package com.paranthaman.vendormanagementsystem.service;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -7,8 +7,8 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import paranthaman.vendormanagementsystem.models.ServiceModel;
-import paranthaman.vendormanagementsystem.repositories.ServiceRepository;
+import com.paranthaman.vendormanagementsystem.model.ServiceModel;
+import com.paranthaman.vendormanagementsystem.repository.ServiceRepository;
 
 @Service
 public class ServiceService {

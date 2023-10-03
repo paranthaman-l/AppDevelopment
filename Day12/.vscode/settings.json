@@ -1,7 +1,12 @@
 {
     "cSpell.words": [
+        "Confirguaration",
+        "Jwts",
         "paranthaman",
+        "Servlet",
+        "springframework",
         "Vendormanagementsystem"
     ],
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic"
 }

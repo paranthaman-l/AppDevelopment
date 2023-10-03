@@ -1,7 +1,7 @@
-package paranthaman.vendormanagementsystem.repositories;
+package com.paranthaman.vendormanagementsystem.repository;
 import org.springframework.data.repository.CrudRepository;
 
-import paranthaman.vendormanagementsystem.models.ContractModel;
+import com.paranthaman.vendormanagementsystem.model.ContractModel;
 public interface ContractRepository  extends CrudRepository<ContractModel,String>{
     
 }

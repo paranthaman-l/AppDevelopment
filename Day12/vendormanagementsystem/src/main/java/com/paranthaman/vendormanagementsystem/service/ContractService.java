@@ -1,12 +1,12 @@
-package paranthaman.vendormanagementsystem.services;
+package com.paranthaman.vendormanagementsystem.service;
 
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import paranthaman.vendormanagementsystem.models.ContractModel;
-import paranthaman.vendormanagementsystem.repositories.ContractRepository;
+import com.paranthaman.vendormanagementsystem.model.ContractModel;
+import com.paranthaman.vendormanagementsystem.repository.ContractRepository;
 
 @Service
 public class ContractService {
