@@ -1,8 +1,6 @@
 package com.paranthaman.vendormanagementsystem.service;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,9 +20,6 @@ public class ServiceService {
     }
 
     public String addService(ServiceModel serviceModel) {
-        serviceModel.setCreatedAt(LocalDateTime.now());
-        serviceModel.setUpdatedAt(LocalDateTime.now());
-
         serviceRepository.save(serviceModel);
         return "Service Added Successfully";
     }
@@ -38,7 +33,7 @@ public class ServiceService {
         serviceRepository.save(newServiceModel);
         return true;
     }
-    
+
     public Boolean deleteService(String sid) {
         Boolean isExists = serviceRepository.findById(sid).isPresent();
         if (!isExists)
@@ -48,19 +43,18 @@ public class ServiceService {
     }
 
     public ServiceModel updateServiceModel(ServiceModel storedServiceModel, ServiceModel serviceModel) {
-        ServiceModel newServiceModel = new ServiceModel();
-        newServiceModel.setSid(storedServiceModel.getSid());
-        newServiceModel.setCreatedBy(storedServiceModel.getCreatedBy());
-        newServiceModel.setCreatedAt(storedServiceModel.getCreatedAt());
-        newServiceModel.setUpdatedAt(LocalDateTime.now());
-        newServiceModel.setServiceName(serviceModel.getServiceName());
-        newServiceModel.setServiceDescription(serviceModel.getServiceDescription());
-        newServiceModel.setServiceType(serviceModel.getServiceType());
-        newServiceModel.setServiceOwner(serviceModel.getServiceOwner());
-        newServiceModel.setServiceStatus(serviceModel.getServiceStatus());
-        newServiceModel.setServiceCost(serviceModel.getServiceCost());
-        newServiceModel.setServiceDuration(serviceModel.getServiceDuration());
-        newServiceModel.setServiceAvailability(serviceModel.getServiceAvailability());
+        var newServiceModel = ServiceModel.builder()
+                .sid(storedServiceModel.getSid())
+                .serviceName(serviceModel.getServiceName())
+                .createdBy(storedServiceModel.getCreatedBy())
+                .createdAt(storedServiceModel.getCreatedAt())
+                .serviceDescription(serviceModel.getServiceDescription())
+                .serviceType(serviceModel.getServiceType())
+                .serviceOwner(serviceModel.getServiceOwner())
+                .serviceStatus(serviceModel.getServiceStatus())
+                .serviceCost(serviceModel.getServiceCost())
+                .serviceDuration(serviceModel.getServiceDuration())
+                .serviceAvailability(serviceModel.getServiceAvailability()).build();
         return newServiceModel;
     }
 

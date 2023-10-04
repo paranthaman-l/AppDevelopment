@@ -1,11 +1,12 @@
 package com.paranthaman.vendormanagementsystem.model;
 
+import java.util.List;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -26,6 +27,10 @@ public class Vendor {
 	private String vid;
 	private boolean isVerified;
 	
+	@OneToMany(mappedBy = "vendor", cascade = CascadeType.ALL)
+    private List<ContractModel> contracts;
+
+
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "uid", referencedColumnName = "uid")
 	private User user;

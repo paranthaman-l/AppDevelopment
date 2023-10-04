@@ -20,7 +20,7 @@ import com.paranthaman.vendormanagementsystem.model.ServiceModel;
 import com.paranthaman.vendormanagementsystem.service.ServiceService;
 
 @RestController
-@RequestMapping(Api.SERVICE)
+@RequestMapping({ Api.VENDOR + Api.SERVICE, Api.ADMIN + Api.SERVICE })
 @CrossOrigin(value = Api.FRONTEND)
 public class ServiceController {
     @Autowired
@@ -45,7 +45,7 @@ public class ServiceController {
             return ((BodyBuilder) ResponseEntity.ok()).body("Updated Successfully");
         return ((BodyBuilder) ResponseEntity.notFound()).body("Service Id Not Found");
     }
-    
+
     @DeleteMapping("/deleteService")
     public ResponseEntity<?> deleteService(@RequestParam String sid) {
         Boolean flag = serviceService.deleteService(sid);
