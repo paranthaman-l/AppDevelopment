@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.ResponseEntity.BodyBuilder;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,6 +21,7 @@ import com.paranthaman.vendormanagementsystem.service.ServiceService;
 
 @RestController
 @RequestMapping(Api.SERVICE)
+@CrossOrigin(value = Api.FRONTEND)
 public class ServiceController {
     @Autowired
     private ServiceService serviceService;

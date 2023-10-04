@@ -3,6 +3,8 @@ package com.paranthaman.vendormanagementsystem.model;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -12,15 +14,16 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "service")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
+@Table(name = "service")
 public class ServiceModel {
     
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String sid; // A unique identifier for each service
     private String serviceName; // The name or title of the service
     private String ServiceDescription; // The name or title of the service

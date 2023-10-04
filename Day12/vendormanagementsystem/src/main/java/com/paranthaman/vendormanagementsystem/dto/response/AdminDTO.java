@@ -1,7 +1,5 @@
 package com.paranthaman.vendormanagementsystem.dto.response;
 
-import com.paranthaman.vendormanagementsystem.model.enumerate.Role;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthenticationResponse {
-    private String token;
-    private String uid;
-    private Role role;
+public class AdminDTO {
+    private String aid;
+    private String email;
+    private String name;
 }

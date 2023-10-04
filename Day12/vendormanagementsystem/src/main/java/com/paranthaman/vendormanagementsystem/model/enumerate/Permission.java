@@ -12,7 +12,11 @@ public enum Permission {
     VENDOR_READ("vendor:read"),
     VENDOR_UPDATE("vendor:update"),
     VENDOR_CREATE("vendor:create"),
-    VENDOR_DELETE("vendor:delete");
+    VENDOR_DELETE("vendor:delete"),
+    ORGANIZATION_READ("organization:read"),
+    ORGANIZATION_UPDATE("organization:update"),
+    ORGANIZATION_CREATE("organization:create"),
+    ORGANIZATION_DELETE("organization:delete");
 
     @Getter
     private final String permission;

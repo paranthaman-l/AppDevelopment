@@ -36,8 +36,8 @@ import lombok.NoArgsConstructor;
 public class User implements UserDetails {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long uid;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private String uid;
 
     @Column(length = 50, nullable = false)
     private String name;
@@ -63,7 +63,6 @@ public class User implements UserDetails {
     @Temporal(TemporalType.TIMESTAMP)
     @Column(nullable = true)
     private Date updatedAt;
-
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

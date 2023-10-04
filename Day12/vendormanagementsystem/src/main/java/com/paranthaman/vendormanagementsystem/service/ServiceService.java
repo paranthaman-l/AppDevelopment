@@ -22,7 +22,6 @@ public class ServiceService {
     }
 
     public String addService(ServiceModel serviceModel) {
-        serviceModel.setSid(UUID.randomUUID().toString());
         serviceModel.setCreatedAt(LocalDateTime.now());
         serviceModel.setUpdatedAt(LocalDateTime.now());
 

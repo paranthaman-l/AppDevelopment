@@ -45,13 +45,13 @@ public class SecurityConfig {
 
         @Bean
         public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-                httpSecurity
-                                .cors(corsConfirguarationSource -> corsConfirguarationSource
-                                                .configurationSource(corsConfigurationSource()))
+                httpSecurity.cors(corsConfirguarationSource -> corsConfirguarationSource
+                                .configurationSource(corsConfigurationSource()))
                                 .csrf(csrf -> csrf.disable())
                                 .authorizeHttpRequests(authorize -> authorize
-                                                .requestMatchers(Api.AUTH + "/**")
-                                                .permitAll()
+                                                .requestMatchers(Api.AUTH + "/**").permitAll()
+                                                .requestMatchers(Api.OTP + "/**").permitAll()
+                                                .requestMatchers(Api.SWAGGER + "/**").permitAll()
                                                 .requestMatchers(Api.ADMIN + "/**")
                                                 .hasRole(ADMIN.name())
                                                 .requestMatchers(GET, Api.ADMIN + "/**")
@@ -86,7 +86,7 @@ public class SecurityConfig {
                 configuration.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type"));
                 configuration.setAllowCredentials(true);
                 configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE"));
-                configuration.setAllowedOrigins(Arrays.asList(Api.REACT));
+                configuration.setAllowedOrigins(Arrays.asList(Api.FRONTEND));
                 UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
                 source.registerCorsConfiguration("/**", configuration);
                 return source;
