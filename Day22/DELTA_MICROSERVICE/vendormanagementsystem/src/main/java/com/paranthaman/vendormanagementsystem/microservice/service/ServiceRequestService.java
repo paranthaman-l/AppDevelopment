@@ -8,6 +8,7 @@ import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import com.paranthaman.vendormanagementsystem.microservice.model.ServiceApply;
 import com.paranthaman.vendormanagementsystem.microservice.model.ServiceRequest;
 
 import lombok.RequiredArgsConstructor;
@@ -15,7 +16,6 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor
 public class ServiceRequestService {
-    // private final ServiceRequestRepository serviceRequestRepository;
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
@@ -52,6 +52,11 @@ public class ServiceRequestService {
                 null,
                 new ParameterizedTypeReference<List<ServiceRequest>>() {
                 }).getBody();
+    }
+
+    public String addServiceApply(String sid, ServiceApply serviceApply) {
+        return restTemplate().postForEntity(serviceRequestURL+"/addServiceApply/"+sid, serviceApply, String.class)
+                .getBody();
     }
 
 }

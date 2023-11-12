@@ -5,6 +5,7 @@ import java.util.Optional;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -41,13 +42,16 @@ public class AuthService {
 	private final JwtUtil jwtUtil;
 	private final UserDetailsService userDetailsService;
 
-	public boolean userRegistration(SignUpDTO request) {
+	public ResponseEntity<?> userRegistration(SignUpDTO request) {
 		Optional<User> isUserExists = userRepository.findByEmail(request.getEmail());
 		if (!isUserExists.isPresent()) {
+			com.paranthaman.vendormanagementsystem.dto.response.SignUpDTO res = new com.paranthaman.vendormanagementsystem.dto.response.SignUpDTO();
 			var user = User.builder().name(request.getName()).email(request.getEmail())
 					.password(passwordEncoder.encode(request.getPassword())).isEnabled(true)
 					.role(Role.valueOf(request.getRole().toUpperCase())).build();
 			userRepository.save(user);
+			res.setId(user.getUid());
+			res.setFlag(true);
 			if (request.getRole().toUpperCase().equals("ADMIN")) {
 				var admin = Admin.builder().aid(user.getUid()).user(user).build();
 				adminRepository.save(admin);
@@ -58,9 +62,12 @@ public class AuthService {
 				var organization = Organization.builder().oid(user.getUid()).user(user).build();
 				organizationRepository.save(organization);
 			}
-			return true;
+			return ResponseEntity.ok(res);
 		} else {
-			return false;
+			com.paranthaman.vendormanagementsystem.dto.response.SignUpDTO res = new com.paranthaman.vendormanagementsystem.dto.response.SignUpDTO();
+			res.setFlag(false);
+			res.setId(null);
+			return ResponseEntity.ok(res);
 		}
 	}
 
@@ -78,7 +85,8 @@ public class AuthService {
 			UserDetails userDetails = this.userDetailsService.loadUserByUsername(email);
 			if (jwtUtil.isTokenValid(tokenDTO.getToken(), userDetails)) {
 				var user = userRepository.findByEmail(email).orElseThrow();
-				return AuthenticationResponse.builder().token(tokenDTO.getToken()).uid(user.getUid()).role(user.getRole()).build();
+				return AuthenticationResponse.builder().token(tokenDTO.getToken()).uid(user.getUid())
+						.role(user.getRole()).build();
 			}
 		}
 		return AuthenticationResponse.builder().error("Not a Valid Token!").build();

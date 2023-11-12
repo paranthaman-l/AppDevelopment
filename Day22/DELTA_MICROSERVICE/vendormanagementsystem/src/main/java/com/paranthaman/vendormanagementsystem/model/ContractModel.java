@@ -57,15 +57,15 @@ public class ContractModel {
     private String contractStatus; // A field indicating the current status of the contract (e.g., active, expired,
                                    // terminated).
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "fk_vid", referencedColumnName = "vid")
     private Vendor manyToOneVendor;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne
     @JoinColumn(name = "vid", referencedColumnName = "vid")
     private Vendor vendor;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne
     @JoinColumn(name = "oid", referencedColumnName = "oid")
     private Organization organization;
 

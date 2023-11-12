@@ -1,8 +1,16 @@
 package com.paranthaman.vendormanagementsystem.service;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.BeanWrapper;
+import org.springframework.beans.BeanWrapperImpl;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.paranthaman.vendormanagementsystem.dto.request.AddService;
@@ -115,5 +123,38 @@ public class VendorService {
         } catch (Exception e) {
             return "Something went wrong!";
         }
+    }
+
+    public ResponseEntity<?>  updateVendor(String vid,Vendor vendor) {
+                Optional<Vendor> existingEntityOptional = vendorRepository.findById(vid);
+
+        if (existingEntityOptional.isPresent()) {
+            Vendor existingEntity = existingEntityOptional.get();
+
+            // Step 2: Use BeanUtils to copy non-null properties from updatedEntity to existingEntity
+            BeanUtils.copyProperties(vendor, existingEntity, getNullPropertyNames(vendor));
+
+            // Step 3: Save the updated entity back to the database
+            Vendor savedEntity = vendorRepository.save(existingEntity);
+
+            return new ResponseEntity<>(savedEntity, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+    private String[] getNullPropertyNames(Object source) {
+        final BeanWrapper src = new BeanWrapperImpl(source);
+        java.beans.PropertyDescriptor[] pds = src.getPropertyDescriptors();
+
+        Set<String> emptyNames = new HashSet<>();
+        for (java.beans.PropertyDescriptor pd : pds) {
+            Object srcValue = src.getPropertyValue(pd.getName());
+            if (srcValue == null) {
+                emptyNames.add(pd.getName());
+            }
+        }
+
+        String[] result = new String[emptyNames.size()];
+        return emptyNames.toArray(result);
     }
 }

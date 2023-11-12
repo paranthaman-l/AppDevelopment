@@ -6570,3 +6570,845 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2023-10-16T09:57:25.463+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /error
 2023-10-16T09:57:25.512+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
 2023-10-16T09:57:25.514+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:01:19.776+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:02:19.992+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:06:19.883+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:07:20.039+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:11:19.900+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:12:20.092+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:16:19.940+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:17:20.137+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:21:20.010+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:22:20.255+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:26:20.070+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:27:20.365+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:30:57.632+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T10:31:02.546+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T10:31:20.162+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:32:20.710+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:36:21.311+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:37:20.904+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:38:08.396+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T10:38:08.614+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:38:08.778+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:38:08.900+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error
+2023-10-16T10:38:09.242+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:38:09.244+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:38:09.517+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T10:38:09.519+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:38:09.521+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:38:09.523+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error
+2023-10-16T10:38:09.657+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:38:09.658+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:13.931+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T10:40:14.211+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:16.159+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:16.362+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2023-10-16T10:40:16.398+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:16.403+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:16.791+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T10:40:16.791+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:16.791+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:16.791+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2023-10-16T10:40:16.808+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:16.808+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:21.998+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:40:21.998+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:22.014+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:22.019+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:40:22.025+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:22.025+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:22.391+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:40:22.401+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:22.401+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:40:22.401+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:40:22.414+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:40:22.416+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:41:21.420+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:41:30.915+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T10:41:30.955+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:41:31.036+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:41:31.045+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:41:32.123+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T10:41:33.453+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:41:33.470+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:41:33.583+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:41:34.095+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T10:41:34.109+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T10:41:34.112+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:41:34.134+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T10:41:34.169+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T10:41:34.280+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T10:41:34.280+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:41:34.280+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T10:41:34.419+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:41:34.540+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:41:34.662+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:41:34.751+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:42:20.993+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:44:55.192+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:44:55.192+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:44:55.363+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:44:56.028+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:44:56.310+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:44:56.332+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:00.080+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/service/getVendorServices?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:00.080+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/service/getVendorServices?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:00.095+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /vendor/service/getVendorServices?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:00.183+05:30 ERROR 15928 --- [http-nio-1612-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractAllClaims(JwtUtil.java:39) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractClaim(JwtUtil.java:30) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractUserEmail(JwtUtil.java:26) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-16T10:45:00.310+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:00.311+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:00.327+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:45:00.330+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /vendor/service/getVendorServices?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:00.377+05:30 ERROR 15928 --- [http-nio-1612-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractAllClaims(JwtUtil.java:39) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractClaim(JwtUtil.java:30) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractUserEmail(JwtUtil.java:26) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-16T10:45:00.402+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:00.402+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:00.404+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:45:01.213+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllCertificates?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.213+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllCertificates?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.223+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllCertificates?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.300+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllCertificates?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.329+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllCertificates?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.421+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllCertificates?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.947+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /vendor/service/getVendorServices?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.964+05:30 ERROR 15928 --- [http-nio-1612-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractAllClaims(JwtUtil.java:39) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractClaim(JwtUtil.java:30) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractUserEmail(JwtUtil.java:26) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-16T10:45:01.978+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.979+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:01.980+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:45:01.994+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /vendor/service/getVendorServices?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:01.999+05:30 ERROR 15928 --- [http-nio-1612-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractAllClaims(JwtUtil.java:39) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractClaim(JwtUtil.java:30) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.util.JwtUtil.extractUserEmail(JwtUtil.java:26) ~[classes/:na]
+	at com.paranthaman.vendormanagementsystem.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-16T10:45:02.010+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:02.011+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:02.012+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:45:04.240+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:04.239+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:04.249+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:04.423+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:04.515+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:04.632+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T10:45:45.519+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:45:45.591+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:45.669+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:45:45.772+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:45:45.778+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:45.789+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:45:45.858+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:45:45.858+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:45.862+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:45:45.863+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=8d5f8d1d-34be-4ba6-9a78-c419d103f044
+2023-10-16T10:45:45.867+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:45:45.878+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:46:04.400+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T10:46:04.419+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:46:04.439+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:46:04.445+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:46:05.133+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T10:46:06.371+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T10:46:06.391+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T10:46:06.505+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T10:46:09.414+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T10:46:09.429+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T10:46:09.429+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getCount
+2023-10-16T10:46:09.429+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T10:46:09.429+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:46:09.429+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T10:46:09.429+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getCount
+2023-10-16T10:46:09.497+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/getCount
+2023-10-16T10:46:09.497+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T10:46:09.498+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:46:09.499+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T10:46:09.551+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/getCount
+2023-10-16T10:46:10.589+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T10:46:10.703+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T10:46:10.779+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T10:46:10.835+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T10:46:15.088+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /admin/getCount
+2023-10-16T10:46:15.115+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /admin/getCount
+2023-10-16T10:46:18.222+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T10:46:18.228+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T10:46:18.228+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T10:46:18.228+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T10:46:18.228+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:18.228+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:18.258+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:18.255+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:18.319+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:18.370+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:18.370+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:18.370+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:21.569+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:46:27.080+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=false
+2023-10-16T10:46:27.086+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=true
+2023-10-16T10:46:27.086+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=true
+2023-10-16T10:46:27.086+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=false
+2023-10-16T10:46:27.086+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T10:46:27.103+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T10:46:27.103+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T10:46:27.103+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T10:46:27.119+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T10:46:27.153+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T10:46:27.153+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T10:46:27.186+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T10:46:49.201+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T10:46:49.201+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T10:46:49.201+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T10:46:49.201+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T10:46:49.218+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:49.218+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:49.285+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:49.285+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:49.302+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:49.318+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:49.334+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:49.335+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:49.950+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=false
+2023-10-16T10:46:49.950+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=false
+2023-10-16T10:46:49.950+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=true
+2023-10-16T10:46:49.950+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=true
+2023-10-16T10:46:49.957+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T10:46:49.957+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T10:46:49.968+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T10:46:49.984+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T10:46:50.005+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T10:46:50.018+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T10:46:50.035+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T10:46:50.036+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T10:46:51.827+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:51.827+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:51.851+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:51.852+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:51.852+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:51.887+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T10:46:51.902+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T10:46:51.985+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T10:47:21.046+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:51:21.641+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:52:21.085+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:56:21.664+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:57:21.205+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:59:25.570+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T10:59:25.735+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:59:25.803+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:25.884+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:59:26.563+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:59:26.655+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:26.703+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:59:26.713+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:26.716+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:28.067+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:59:28.072+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:28.072+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:59:28.206+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:59:28.211+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:28.212+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:59:28.214+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:28.215+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:33.283+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T10:59:33.294+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:59:33.297+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:33.297+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:59:33.388+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:59:33.392+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:33.394+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:59:33.397+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:33.397+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:37.734+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:59:37.736+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:37.736+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:59:37.823+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:59:37.828+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:37.829+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:59:37.833+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:37.834+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:48.030+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T10:59:48.038+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:59:48.041+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:48.042+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:59:48.124+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:59:48.128+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:48.131+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:59:48.134+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:48.135+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:56.501+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T10:59:56.506+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T10:59:56.509+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:56.511+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T10:59:56.591+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-16T10:59:56.594+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T10:59:56.595+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-16T10:59:56.598+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T10:59:56.599+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:00:03.485+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T11:00:03.492+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T11:00:03.495+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:00:03.495+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T11:00:03.596+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T11:00:04.725+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:04.729+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:04.811+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:06.979+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:00:06.983+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:00:06.985+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:00:06.985+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:00:07.015+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:00:07.018+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:00:07.019+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:00:07.077+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:07.161+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:07.216+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:07.227+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:10.178+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:10.178+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:10.184+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:10.212+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:10.235+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:10.257+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:22.072+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:22.072+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:22.091+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:22.110+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:22.119+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:00:22.145+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /vendor/getAllEmployees?vid=1f5fbb91-806c-4fad-9963-e2878b08f7a9
+2023-10-16T11:01:21.740+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:02:21.246+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:06:21.756+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:07:21.271+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:11:21.771+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:12:21.292+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:16:21.781+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:17:21.307+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:21:21.793+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:22:21.315+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:26:21.816+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:27:21.332+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:31:21.824+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:32:21.338+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:36:21.840+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:37:21.367+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:39:37.840+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T11:39:37.927+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:39:37.971+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:39:38.000+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error
+2023-10-16T11:39:38.020+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:39:38.021+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:39:38.128+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid
+2023-10-16T11:39:38.130+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:39:38.138+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:39:38.138+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error
+2023-10-16T11:39:38.138+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:39:38.138+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:41:21.851+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:42:21.381+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:42:37.605+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/signup
+2023-10-16T11:42:37.631+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /auth/signup
+2023-10-16T11:42:37.636+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:42:37.636+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /auth/signup
+2023-10-16T11:42:47.336+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T11:42:47.346+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T11:42:47.347+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:42:47.350+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T11:42:47.613+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T11:42:48.694+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:42:48.694+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:42:48.731+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:43:02.802+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T11:43:02.865+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T11:43:02.865+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:43:02.865+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T11:43:03.112+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T11:43:04.312+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:43:04.329+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:43:04.351+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:43:05.289+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:43:05.299+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:43:05.299+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:43:05.299+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:43:05.473+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:43:05.478+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:43:05.478+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:43:05.478+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getCount
+2023-10-16T11:43:05.478+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getCount
+2023-10-16T11:43:05.499+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /admin/getCount
+2023-10-16T11:43:05.520+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /admin/getCount
+2023-10-16T11:43:05.619+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /admin/getCount
+2023-10-16T11:43:05.652+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /admin/getCount
+2023-10-16T11:43:05.908+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:43:05.939+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:43:05.982+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:43:06.004+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:43:54.350+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T11:43:54.350+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T11:43:54.350+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T11:43:54.352+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T11:43:54.386+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T11:43:54.386+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T11:43:54.445+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T11:43:54.445+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T11:43:54.506+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T11:43:54.506+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T11:43:54.519+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T11:43:54.595+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T11:43:59.580+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/approveOrganization?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:43:59.613+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing PUT /admin/approveOrganization?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:43:59.696+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured PUT /admin/approveOrganization?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:00.060+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T11:44:00.063+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T11:44:00.095+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T11:44:06.490+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T11:44:06.490+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=false
+2023-10-16T11:44:06.490+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:44:06.490+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T11:44:06.490+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:06.490+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getOrganizations?verified=true
+2023-10-16T11:44:06.531+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:06.540+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T11:44:06.540+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T11:44:06.540+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:44:06.550+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:44:06.553+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:06.556+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:44:06.568+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:44:06.568+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:06.568+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:44:06.568+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:44:06.583+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:06.593+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:06.593+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:44:06.593+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:06.593+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:06.619+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:44:06.632+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:06.638+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:06.638+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:44:06.728+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T11:44:06.733+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T11:44:06.768+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=false
+2023-10-16T11:44:06.792+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /admin/getOrganizations?verified=true
+2023-10-16T11:44:06.792+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=false
+2023-10-16T11:44:06.816+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /admin/getOrganizations?verified=true
+2023-10-16T11:44:07.041+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:07.043+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:07.050+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:07.075+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:07.148+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:07.167+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T11:44:08.994+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T11:44:09.017+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T11:44:09.017+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:09.028+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T11:44:09.270+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T11:44:10.320+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:10.338+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:10.402+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:10.737+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:44:10.742+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:44:10.751+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:10.751+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:44:10.757+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:44:10.762+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:10.792+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:44:11.020+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:11.043+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:11.073+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:11.091+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /organization/byOid?oid=11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:30.071+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /organization/addServiceRequest
+2023-10-16T11:44:30.080+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /organization/addServiceRequest
+2023-10-16T11:44:30.128+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /organization/addServiceRequest
+2023-10-16T11:44:31.640+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /organization/getServiceRequests/11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:31.648+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /organization/getServiceRequests/11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:31.688+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /organization/getServiceRequests/11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:32.211+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /organization/getServiceRequests/11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:32.243+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /organization/getServiceRequests/11a46f0e-2e1e-4d3e-8195-942c8d17a610
+2023-10-16T11:44:51.287+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/signup
+2023-10-16T11:44:51.309+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /auth/signup
+2023-10-16T11:44:51.309+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:44:51.309+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /auth/signup
+2023-10-16T11:44:54.232+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=false
+2023-10-16T11:44:54.232+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=true
+2023-10-16T11:44:54.247+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=true
+2023-10-16T11:44:54.247+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=false
+2023-10-16T11:44:54.249+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T11:44:54.249+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T11:44:54.277+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T11:44:54.294+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T11:44:54.347+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T11:44:54.347+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T11:44:54.360+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T11:44:54.367+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T11:44:56.569+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/approveVendor?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:44:56.580+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing PUT /admin/approveVendor?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:44:56.613+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured PUT /admin/approveVendor?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:44:56.670+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T11:44:56.687+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T11:45:10.176+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-16T11:45:10.182+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-16T11:45:10.182+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:45:10.182+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-16T11:45:10.411+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-16T11:45:11.834+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:11.843+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:11.861+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:11.956+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:45:11.960+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:45:11.960+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:45:11.962+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:45:11.980+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:45:11.980+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:45:11.987+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:45:12.083+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:12.185+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:12.243+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:12.275+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:27.284+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:27.291+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:45:27.310+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:45:27.403+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:45:27.403+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:27.403+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T11:45:27.412+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:27.422+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:45:27.427+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T11:45:27.427+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:45:27.427+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:45:27.430+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:45:27.431+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T11:45:27.470+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T11:45:27.470+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T11:45:27.482+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:45:27.565+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T11:46:21.868+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:47:21.389+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:51:21.883+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:52:21.413+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:56:21.892+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:57:21.437+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:01:21.915+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:02:21.468+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:06:21.929+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:07:21.472+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:11:21.931+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:12:21.480+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:16:21.936+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:17:21.486+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:21:21.950+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:22:21.502+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:26:21.953+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:27:21.515+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:31:27.394+05:30  WARN 5188 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m20s849ms905µs).
+2023-10-16T13:31:34.776+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T13:31:34.776+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T13:31:34.870+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:34.931+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:31:35.030+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T13:31:35.041+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:35.042+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:31:35.047+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T13:31:35.758+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /vendor/byVid?vid=3cd1e2a1-68d7-4e81-91f1-cf16aa72e303
+2023-10-16T13:31:37.011+05:30  WARN 15928 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h4m20s845ms725µs100ns).
+2023-10-16T13:31:45.403+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=false
+2023-10-16T13:31:45.404+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:45.405+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:45.406+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:31:45.407+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:45.407+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/getVendors?verified=true
+2023-10-16T13:31:45.409+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:45.409+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:31:45.485+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T13:31:45.542+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T13:31:45.543+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T13:31:45.547+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /vendor/byVid?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:45.547+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/byToken
+2023-10-16T13:31:45.548+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:45.549+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:31:45.549+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /error?vid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:45.551+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:45.551+05:30 DEBUG 15928 --- [http-nio-1612-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-16T13:31:45.576+05:30 DEBUG 15928 --- [http-nio-1612-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T13:31:45.620+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T13:31:45.622+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:45.624+05:30 DEBUG 15928 --- [http-nio-1612-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T13:31:45.627+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /auth/byToken
+2023-10-16T13:31:45.628+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-16T13:31:45.628+05:30 DEBUG 15928 --- [http-nio-1612-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /auth/byToken
+2023-10-16T13:31:45.660+05:30 DEBUG 15928 --- [http-nio-1612-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T13:31:45.690+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=false
+2023-10-16T13:31:45.718+05:30 DEBUG 15928 --- [http-nio-1612-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=false
+2023-10-16T13:31:45.731+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /admin/getVendors?verified=true
+2023-10-16T13:31:45.775+05:30 DEBUG 15928 --- [http-nio-1612-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /admin/getVendors?verified=true
+2023-10-16T13:31:46.778+05:30 DEBUG 15928 --- [http-nio-1612-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:46.783+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:46.803+05:30 DEBUG 15928 --- [http-nio-1612-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:46.825+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:31:46.841+05:30 DEBUG 15928 --- [http-nio-1612-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /admin/byAid?aid=9fae2ad6-1db3-42ac-918d-7eda8e5e967f
+2023-10-16T13:35:12.804+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:36:12.378+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:40:12.821+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:41:12.451+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:45:12.884+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:46:12.523+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:50:12.902+05:30  INFO 5188 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:51:12.532+05:30  INFO 15928 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

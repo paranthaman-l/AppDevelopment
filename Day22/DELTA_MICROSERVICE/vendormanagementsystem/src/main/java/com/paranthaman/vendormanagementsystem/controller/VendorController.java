@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -41,6 +42,11 @@ public class VendorController {
     @GetMapping("/byVid")
     public Vendor getVendor(@RequestParam String vid) {
         return vendorService.getVendor(vid);
+    }
+
+    @PutMapping("/update/{vid}")
+    public ResponseEntity<?> updateVendor(@RequestBody Vendor vendor,@PathVariable String vid){
+        return vendorService.updateVendor(vid,vendor);
     }
 
     @PutMapping("/updateBanner")

@@ -4,7 +4,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.contract.service.model.ServiceApply;
 import com.contract.service.model.ServiceRequest;
+import com.contract.service.repository.ServiceApplyRepository;
 import com.contract.service.repository.ServiceRequestRepository;
 
 import lombok.RequiredArgsConstructor;
@@ -13,6 +15,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ServiceRequestService {
     private final ServiceRequestRepository serviceRequestRepository;
+    private final ServiceApplyRepository serviceApplyRepository;
 
     public String postService(ServiceRequest request) {
         try {
@@ -36,5 +39,10 @@ public class ServiceRequestService {
 
     public List<ServiceRequest> getAllServiceRequests() {
         return (List<ServiceRequest>) serviceRequestRepository.findAll();
+    }
+
+    public ServiceApply addServiceApply(String sid,ServiceApply serviceApply) {
+        serviceApply.setServiceRequest(serviceRequestRepository.findById(sid).get());
+        return serviceApplyRepository.save(serviceApply);
     }
 }

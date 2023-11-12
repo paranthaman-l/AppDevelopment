@@ -31,7 +31,10 @@ public class OtpController {
 
     private final EmailService emailService;
     private final UserRepository userRepository;
-
+    @GetMapping("/")
+    public String hi(){
+        return "Hii";
+    }
     @PostMapping("/signup/send-otp")
     public ResponseEntity<APIResponse> sendOtpForSignUp(@RequestBody SignUpOtp signUpOtp) throws IOException {
         User isExistEmail = userRepository.findByEmail(signUpOtp.getEmail()).orElse(null);

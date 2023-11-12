@@ -6,16 +6,17 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.paranthaman.vendormanagementsystem.constant.Api;
+import com.paranthaman.vendormanagementsystem.microservice.model.ServiceApply;
 import com.paranthaman.vendormanagementsystem.microservice.model.ServiceRequest;
 import com.paranthaman.vendormanagementsystem.microservice.service.ServiceRequestService;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 
 @RestController
@@ -47,5 +48,10 @@ public class ServiceRequestController {
     @GetMapping("/getAllServiceRequests")
     public List<ServiceRequest> getAllServiceRequests(){
         return serviceRequestService.getAllServiceRequests();
+    }
+
+    @PostMapping("/addServiceApply/{sid}")
+      public String serviceApply(@RequestBody ServiceApply serviceApply,@PathVariable String sid) {
+        return serviceRequestService.addServiceApply(sid,serviceApply);
     }
 }

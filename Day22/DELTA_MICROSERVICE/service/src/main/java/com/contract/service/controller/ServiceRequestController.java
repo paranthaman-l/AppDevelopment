@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import com.contract.service.model.ServiceApply;
 import com.contract.service.model.ServiceRequest;
 import com.contract.service.service.ServiceRequestService;
 
@@ -47,4 +48,11 @@ public class ServiceRequestController {
     public List<ServiceRequest> getAllServiceRequests(){
         return serviceRequestService.getAllServiceRequests();
     }
+
+    @PostMapping("/addServiceApply/{sid}")
+    public ServiceApply serviceApply(@RequestBody ServiceApply serviceApply,@PathVariable String sid) {
+
+        return serviceRequestService.addServiceApply(sid,serviceApply);
+    }
+
 }
