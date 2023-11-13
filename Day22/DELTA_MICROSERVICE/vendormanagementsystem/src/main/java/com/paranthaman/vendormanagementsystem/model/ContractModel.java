@@ -61,6 +61,10 @@ public class ContractModel {
     @JoinColumn(name = "fk_vid", referencedColumnName = "vid")
     private Vendor manyToOneVendor;
 
+    @ManyToOne
+    @JoinColumn(name = "fk_oid", referencedColumnName = "oid")
+    private Organization manyToOneOrganization;
+
     @OneToOne
     @JoinColumn(name = "vid", referencedColumnName = "vid")
     private Vendor vendor;

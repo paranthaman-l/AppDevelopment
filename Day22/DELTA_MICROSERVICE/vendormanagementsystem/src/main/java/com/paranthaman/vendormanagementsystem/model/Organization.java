@@ -1,5 +1,6 @@
 package com.paranthaman.vendormanagementsystem.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
@@ -42,9 +43,9 @@ public class Organization {
     private String contact;
 
     private String address;
-
-    @OneToMany(mappedBy = "organization")
-    private List<ContractModel> contracts;
+    	
+	@OneToMany(mappedBy = "vendor", cascade = CascadeType.ALL)
+	private List<ContractModel> contracts = new ArrayList<>();
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "uid", referencedColumnName = "uid")

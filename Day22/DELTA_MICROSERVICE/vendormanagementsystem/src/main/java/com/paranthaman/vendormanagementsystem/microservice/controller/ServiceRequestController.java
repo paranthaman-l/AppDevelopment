@@ -49,6 +49,10 @@ public class ServiceRequestController {
     public List<ServiceRequest> getAllServiceRequests(){
         return serviceRequestService.getAllServiceRequests();
     }
+    @GetMapping("/getApplyRequest/{sid}")
+    public List<ServiceApply> getApplyRequest(@PathVariable String sid){
+        return serviceRequestService.getApplyRequests(sid);
+    }
 
     @PostMapping("/addServiceApply/{sid}")
       public String serviceApply(@RequestBody ServiceApply serviceApply,@PathVariable String sid) {

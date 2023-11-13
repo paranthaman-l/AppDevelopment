@@ -24,10 +24,11 @@ public class ServiceApply {
     private String contractValue;
     private String description;
 
-    private String oid;   
+    private String oid;  
+    private String sid;  
     
-    @ManyToOne
-    @JoinColumn(name = "fk_sid", referencedColumnName = "sid")
-    private ServiceRequest serviceRequest;
+    // @ManyToOne
+    // @JoinColumn(name = "fk_sid", referencedColumnName = "sid")
+    // private ServiceRequest serviceRequest;
 
 }

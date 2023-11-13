@@ -42,7 +42,11 @@ public class ServiceRequestService {
     }
 
     public ServiceApply addServiceApply(String sid,ServiceApply serviceApply) {
-        serviceApply.setServiceRequest(serviceRequestRepository.findById(sid).get());
+        // serviceApply.setServiceRequest(serviceRequestRepository.findById(sid).get());
         return serviceApplyRepository.save(serviceApply);
+    }
+
+    public List<ServiceApply> getApplyRequests(String sid) {
+        return serviceApplyRepository.findAllBySid(sid);
     }
 }

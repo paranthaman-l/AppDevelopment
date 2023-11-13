@@ -59,4 +59,13 @@ public class ServiceRequestService {
                 .getBody();
     }
 
+    public List<ServiceApply> getApplyRequests(String sid) {
+         return restTemplate().exchange(
+                serviceRequestURL + "/getApplyRequest/"+sid,
+                HttpMethod.GET,
+                null,
+                new ParameterizedTypeReference<List<ServiceApply>>() {
+                }).getBody();
+    }
+
 }

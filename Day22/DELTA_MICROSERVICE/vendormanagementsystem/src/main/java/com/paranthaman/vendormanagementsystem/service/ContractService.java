@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.paranthaman.vendormanagementsystem.model.ContractModel;
 import com.paranthaman.vendormanagementsystem.model.ServiceModel;
+import com.paranthaman.vendormanagementsystem.model.Vendor;
 import com.paranthaman.vendormanagementsystem.repository.ContractRepository;
 
 @Service
@@ -14,6 +15,10 @@ public class ContractService {
     
     @Autowired
     private ContractRepository contractRepository;
+    @Autowired
+    private OrganizationService organizationService;
+    @Autowired
+    private VendorService vendorService;
 
     public ArrayList<ContractModel> getAllContracts() {
         return null;
@@ -57,6 +62,15 @@ public class ContractService {
                 .updatedBy(contractModel.getUpdatedBy())
                 .build();
         return newContractModel;
+    }
+
+    public String addContract(String oid, String vid, ContractModel serviceModel) {
+        Vendor vendor = vendorService.getVendor(vid);
+        serviceModel.setManyToOneOrganization(organizationService.getOrganization(oid));
+        // serviceModel.setVendor(vendor);
+        serviceModel.setManyToOneVendor(vendor);
+        contractRepository.save(serviceModel);
+        return "Contract Created Successfully";
     }
 
 

@@ -19,7 +19,7 @@ import com.paranthaman.vendormanagementsystem.model.ContractModel;
 import com.paranthaman.vendormanagementsystem.service.ContractService;
 
 @RestController
-@RequestMapping(Api.CONTRACT)
+@RequestMapping({Api.CONTRACT,Api.ORGANIZATION})
 public class ContractController {
     
     @Autowired
@@ -32,8 +32,8 @@ public class ContractController {
     }
 
     @PostMapping("/postContract")
-    public ResponseEntity<?> addContract(@RequestBody ContractModel serviceModel) {
-        String res = contractService.addContract(serviceModel);
+    public ResponseEntity<?> addContract(@RequestBody ContractModel serviceModel,@RequestParam String oid,@RequestParam String vid) {
+        String res = contractService.addContract(oid,vid,serviceModel);
         return ResponseEntity.ok().body(res);
     }
 

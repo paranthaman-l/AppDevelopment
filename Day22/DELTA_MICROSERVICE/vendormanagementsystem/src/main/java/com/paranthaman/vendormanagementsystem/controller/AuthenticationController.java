@@ -63,5 +63,9 @@ public class AuthenticationController {
     public Organization getOrganization(@PathVariable String oid){
         return organizationService.getOrganization(oid);
     }
+    @GetMapping("/byVid/{vid}")
+    public Vendor getVendor(@PathVariable String vid){
+        return vendorService.getVendor(vid);
+    }
 
 }

@@ -27,6 +27,6 @@ public class ServiceRequest {
 
     private String vid;
 
-    @OneToMany(mappedBy = "serviceRequest")
-    private List<ServiceApply> serviceApplies = new ArrayList<>();
+    // @OneToMany(mappedBy = "serviceRequest")
+    // private List<ServiceApply> serviceApplies = new ArrayList<>();
 }
