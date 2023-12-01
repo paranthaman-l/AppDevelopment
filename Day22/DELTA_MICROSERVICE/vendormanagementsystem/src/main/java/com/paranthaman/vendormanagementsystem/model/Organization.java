@@ -40,11 +40,17 @@ public class Organization {
     
     private String organizationName;
     
+    
+	private String location;
+
     private String contact;
 
     private String address;
+
+    @Column(length = 300)
+	private String about;
     	
-	@OneToMany(mappedBy = "vendor", cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "organization", cascade = CascadeType.ALL)
 	private List<ContractModel> contracts = new ArrayList<>();
 
     @OneToOne(cascade = CascadeType.ALL)

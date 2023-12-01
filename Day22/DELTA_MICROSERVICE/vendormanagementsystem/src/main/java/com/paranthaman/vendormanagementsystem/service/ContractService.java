@@ -21,7 +21,7 @@ public class ContractService {
     private VendorService vendorService;
 
     public ArrayList<ContractModel> getAllContracts() {
-        return null;
+        return (ArrayList<ContractModel>) contractRepository.findAll();
     }
 
     public String addContract(ContractModel contractModel) {
@@ -66,9 +66,9 @@ public class ContractService {
 
     public String addContract(String oid, String vid, ContractModel serviceModel) {
         Vendor vendor = vendorService.getVendor(vid);
-        serviceModel.setManyToOneOrganization(organizationService.getOrganization(oid));
+        serviceModel.setOrganization(organizationService.getOrganization(oid));
         // serviceModel.setVendor(vendor);
-        serviceModel.setManyToOneVendor(vendor);
+        serviceModel.setVendor(vendor);
         contractRepository.save(serviceModel);
         return "Contract Created Successfully";
     }

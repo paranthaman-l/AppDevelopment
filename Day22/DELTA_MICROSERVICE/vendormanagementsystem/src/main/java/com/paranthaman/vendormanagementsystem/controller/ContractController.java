@@ -19,7 +19,7 @@ import com.paranthaman.vendormanagementsystem.model.ContractModel;
 import com.paranthaman.vendormanagementsystem.service.ContractService;
 
 @RestController
-@RequestMapping({Api.CONTRACT,Api.ORGANIZATION})
+@RequestMapping({Api.CONTRACT,Api.ORGANIZATION,Api.ADMIN})
 public class ContractController {
     
     @Autowired

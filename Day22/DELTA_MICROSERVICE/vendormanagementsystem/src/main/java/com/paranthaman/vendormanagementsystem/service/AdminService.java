@@ -10,6 +10,7 @@ import com.paranthaman.vendormanagementsystem.dto.request.UpdateNameDTO;
 import com.paranthaman.vendormanagementsystem.dto.response.AdminDTO;
 import com.paranthaman.vendormanagementsystem.dto.response.DashBoardCount;
 import com.paranthaman.vendormanagementsystem.model.Admin;
+import com.paranthaman.vendormanagementsystem.model.ContractModel;
 import com.paranthaman.vendormanagementsystem.model.Organization;
 import com.paranthaman.vendormanagementsystem.model.User;
 import com.paranthaman.vendormanagementsystem.model.Vendor;
@@ -109,6 +110,10 @@ public class AdminService {
 
     public List<Organization> getOrganizations(Boolean verified) {
                 return organizationRepository.findAllByIsVerified(verified);
+    }
+
+    public List<ContractModel> getContractByTitle(String title) {
+                return contractRepository.findAllByContractTitleContainingIgnoreCase(title);
     }
 
 }

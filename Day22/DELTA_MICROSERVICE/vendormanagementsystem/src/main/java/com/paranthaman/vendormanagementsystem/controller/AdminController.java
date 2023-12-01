@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,7 @@ import com.paranthaman.vendormanagementsystem.dto.request.UpdateNameDTO;
 import com.paranthaman.vendormanagementsystem.dto.response.AdminDTO;
 import com.paranthaman.vendormanagementsystem.dto.response.DashBoardCount;
 import com.paranthaman.vendormanagementsystem.model.Admin;
+import com.paranthaman.vendormanagementsystem.model.ContractModel;
 import com.paranthaman.vendormanagementsystem.model.Organization;
 import com.paranthaman.vendormanagementsystem.model.Vendor;
 import com.paranthaman.vendormanagementsystem.service.AdminService;
@@ -54,6 +56,10 @@ public class AdminController {
     @GetMapping("/getOrganizations")
     public List<Organization> getOrganizations(@RequestParam Boolean verified) {
         return adminService.getOrganizations(verified);
+    }
+    @GetMapping("/getContractByTitle/{title}")
+    public List<ContractModel> getByTitle(@PathVariable String title) {
+        return adminService.getContractByTitle(title);
     }
 
     @GetMapping("/getCount")

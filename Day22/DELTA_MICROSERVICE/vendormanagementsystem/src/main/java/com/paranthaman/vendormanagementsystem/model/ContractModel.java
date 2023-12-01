@@ -8,6 +8,7 @@ import org.springframework.data.annotation.LastModifiedDate;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
@@ -56,22 +57,23 @@ public class ContractModel {
                                  // payment.
     private String contractStatus; // A field indicating the current status of the contract (e.g., active, expired,
                                    // terminated).
-
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "fk_vid", referencedColumnName = "vid")
-    private Vendor manyToOneVendor;
-
-    @ManyToOne
-    @JoinColumn(name = "fk_oid", referencedColumnName = "oid")
-    private Organization manyToOneOrganization;
-
-    @OneToOne
-    @JoinColumn(name = "vid", referencedColumnName = "vid")
     private Vendor vendor;
 
-    @OneToOne
-    @JoinColumn(name = "oid", referencedColumnName = "oid")
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "fk_oid", referencedColumnName = "oid")
     private Organization organization;
+
+    // @OneToOne
+    // @JoinColumn(name = "vid", referencedColumnName = "vid")
+    // private Vendor vendor;
+
+    // @OneToOne
+    // @JoinColumn(name = "oid", referencedColumnName = "oid")
+    // private Organization organization;
 
     private String createdBy;
     private String updatedBy;
